@@ -1,0 +1,21 @@
+# 操作系统
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 临时文件
+~$*
+*.tmp
+*.bak
+
+# 依赖（示意图脚本如需本地安装依赖）
+node_modules/
+
+# 大体积中间产物
+*.psd
+*.blend1

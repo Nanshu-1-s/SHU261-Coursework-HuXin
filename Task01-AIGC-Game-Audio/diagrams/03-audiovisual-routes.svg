@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="740" viewBox="0 0 1280 740" font-family="Microsoft YaHei">
+  <rect width="1280" height="740" fill="#ffffff"/>
+
+  <text x="40" y="52" font-size="30" font-weight="bold" fill="#14110f">让画面带上声音的两条路线</text>
+  <text x="40" y="82" font-size="16" fill="#6b6660">同样是文本进、带声成片出，两条路线的工序不同，能改的地方也不同</text>
+
+  <!-- ============ 路线 A ============ -->
+  <g>
+    <rect x="40" y="118" width="1200" height="132" rx="4" fill="#f4f7fd" stroke="#d3dced"/>
+    <rect x="40" y="118" width="4" height="132" fill="#1e40af"/>
+    <text x="64" y="152" font-size="17" font-weight="bold" fill="#1e40af">路线 A</text>
+    <text x="64" y="178" font-size="14" fill="#4a5568">一次生成</text>
+    <text x="64" y="198" font-size="14" fill="#4a5568">画面与声音</text>
+
+    <!-- 三个盒子 -->
+    <rect x="200" y="138" width="280" height="92" rx="3" fill="#ffffff" stroke="#b9c7e2"/>
+    <text x="340" y="176" font-size="15" font-weight="bold" fill="#14110f" text-anchor="middle">文本提示词</text>
+    <text x="340" y="202" font-size="13" fill="#6b6660" text-anchor="middle">描述画面，也描述声音</text>
+
+    <line x1="484" y1="184" x2="572" y2="184" stroke="#1e40af" stroke-width="2"/>
+    <polygon points="572,184 562,178 562,190" fill="#1e40af"/>
+
+    <rect x="580" y="138" width="280" height="92" rx="3" fill="#1e40af"/>
+    <text x="720" y="176" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">音视频同生模型</text>
+    <text x="720" y="202" font-size="13" fill="#cdd9ef" text-anchor="middle">画面和声音在同一次采样里出来</text>
+
+    <line x1="864" y1="184" x2="952" y2="184" stroke="#1e40af" stroke-width="2"/>
+    <polygon points="952,184 942,178 942,190" fill="#1e40af"/>
+
+    <rect x="960" y="138" width="280" height="92" rx="3" fill="#ffffff" stroke="#b9c7e2"/>
+    <text x="1100" y="176" font-size="15" font-weight="bold" fill="#14110f" text-anchor="middle">带声成片</text>
+    <text x="1100" y="202" font-size="13" fill="#6b6660" text-anchor="middle">声音与画面天生对齐，改不动</text>
+  </g>
+
+  <!-- ============ 路线 B ============ -->
+  <g>
+    <rect x="40" y="270" width="1200" height="132" rx="4" fill="#f6f9f0" stroke="#d6e2c4"/>
+    <rect x="40" y="270" width="4" height="132" fill="#4d7c0f"/>
+    <text x="64" y="304" font-size="17" font-weight="bold" fill="#4d7c0f">路线 B</text>
+    <text x="64" y="330" font-size="14" fill="#4a5568">画面先出</text>
+    <text x="64" y="350" font-size="14" fill="#4a5568">声音后配</text>
+
+    <rect x="200" y="290" width="176" height="92" rx="3" fill="#ffffff" stroke="#bcd29b"/>
+    <text x="288" y="322" font-size="14" font-weight="bold" fill="#14110f" text-anchor="middle">文本提示词</text>
+    <text x="288" y="346" font-size="12" fill="#6b6660" text-anchor="middle">只描述画面</text>
+
+    <line x1="380" y1="336" x2="408" y2="336" stroke="#4d7c0f" stroke-width="2"/>
+    <polygon points="408,336 398,330 398,342" fill="#4d7c0f"/>
+
+    <rect x="416" y="290" width="176" height="92" rx="3" fill="#ffffff" stroke="#bcd29b"/>
+    <text x="504" y="322" font-size="14" font-weight="bold" fill="#14110f" text-anchor="middle">视频生成模型</text>
+    <text x="504" y="346" font-size="12" fill="#6b6660" text-anchor="middle">只出画面</text>
+
+    <line x1="596" y1="336" x2="624" y2="336" stroke="#4d7c0f" stroke-width="2"/>
+    <polygon points="624,336 614,330 614,342" fill="#4d7c0f"/>
+
+    <rect x="632" y="290" width="176" height="92" rx="3" fill="#ffffff" stroke="#bcd29b"/>
+    <text x="720" y="322" font-size="14" font-weight="bold" fill="#14110f" text-anchor="middle">无声片段</text>
+    <text x="720" y="346" font-size="12" fill="#6b6660" text-anchor="middle">可以直接替换</text>
+
+    <line x1="812" y1="336" x2="840" y2="336" stroke="#4d7c0f" stroke-width="2"/>
+    <polygon points="840,336 830,330 830,342" fill="#4d7c0f"/>
+
+    <rect x="848" y="290" width="176" height="92" rx="3" fill="#4d7c0f"/>
+    <text x="936" y="322" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">画面配音模型</text>
+    <text x="936" y="346" font-size="12" fill="#d7e3bd" text-anchor="middle">看画面生成声音</text>
+
+    <line x1="1028" y1="336" x2="1056" y2="336" stroke="#4d7c0f" stroke-width="2"/>
+    <polygon points="1056,336 1046,330 1046,342" fill="#4d7c0f"/>
+
+    <rect x="1064" y="290" width="176" height="92" rx="3" fill="#ffffff" stroke="#bcd29b"/>
+    <text x="1152" y="322" font-size="14" font-weight="bold" fill="#14110f" text-anchor="middle">带声成片</text>
+    <text x="1152" y="346" font-size="12" fill="#6b6660" text-anchor="middle">声音轨可单独重做</text>
+  </g>
+
+  <!-- ============ 对照表 ============ -->
+  <g>
+    <rect x="40" y="426" width="1200" height="40" fill="#2b2724"/>
+    <text x="60" y="452" font-size="15" font-weight="bold" fill="#ffffff">差别在哪</text>
+    <text x="260" y="452" font-size="15" font-weight="bold" fill="#ffffff">路线 A 一次生成</text>
+    <text x="780" y="452" font-size="15" font-weight="bold" fill="#ffffff">路线 B 后配音</text>
+
+    <rect x="40" y="466" width="1200" height="42" fill="#faf9f7" stroke="#e8e4df"/>
+    <text x="60" y="492" font-size="14" fill="#3d3833">声音怎么对上画面</text>
+    <text x="260" y="492" font-size="14" fill="#2b2724">同一次生成里就对齐了，不用另外处理</text>
+    <text x="780" y="492" font-size="14" fill="#2b2724">要卡时间码，准不准看配音模型读画面的能力</text>
+
+    <rect x="40" y="508" width="1200" height="42" fill="#ffffff" stroke="#e8e4df"/>
+    <text x="60" y="534" font-size="14" fill="#3d3833">声音能否单独重做</text>
+    <text x="260" y="534" font-size="14" fill="#2b2724">不能，只能整段重新生成</text>
+    <text x="780" y="534" font-size="14" fill="#2b2724">能，画面不动，只把声音轨换掉</text>
+
+    <rect x="40" y="550" width="1200" height="42" fill="#faf9f7" stroke="#e8e4df"/>
+    <text x="60" y="576" font-size="14" fill="#3d3833">时间点由谁控制</text>
+    <text x="260" y="576" font-size="14" fill="#2b2724">写在提示词里，命中率取决于模型</text>
+    <text x="780" y="576" font-size="14" fill="#2b2724">由画面里的动作决定，更接近物理事实</text>
+
+    <rect x="40" y="592" width="1200" height="42" fill="#ffffff" stroke="#e8e4df"/>
+    <text x="60" y="618" font-size="14" fill="#3d3833">适合用在哪</text>
+    <text x="260" y="618" font-size="14" fill="#2b2724">过场动画、预告片、概念预演</text>
+    <text x="780" y="618" font-size="14" fill="#2b2724">已有动画补拟音、现成片段的音效补齐</text>
+  </g>
+
+  <text x="40" y="694" font-size="13" fill="#8a837c">示意图由本仓库 diagrams/ 下的 SVG 源文件渲染生成。路线划分依据模型是否在同一次生成里产出音频，属于工程上的分类。</text>
+</svg>

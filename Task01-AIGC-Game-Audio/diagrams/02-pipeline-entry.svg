@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" font-family="Microsoft YaHei">
+  <rect width="1280" height="800" fill="#ffffff"/>
+
+  <text x="40" y="52" font-size="30" font-weight="bold" fill="#14110f">游戏音频生产的五个环节，AIGC 各替到哪一步</text>
+  <text x="40" y="82" font-size="16" fill="#6b6660">替代程度并不均匀。越靠素材生产，替得越彻底；越靠与玩法的咬合，替得越少</text>
+
+  <!-- 表头 -->
+  <g>
+    <rect x="40" y="112" width="1200" height="40" fill="#2b2724"/>
+    <text x="60" y="138" font-size="15" font-weight="bold" fill="#ffffff">环节</text>
+    <text x="240" y="138" font-size="15" font-weight="bold" fill="#ffffff">以前怎么做</text>
+    <text x="680" y="138" font-size="15" font-weight="bold" fill="#ffffff">AIGC 现在能替到哪一步</text>
+  </g>
+
+  <!-- 行 1 -->
+  <g>
+    <rect x="40" y="152" width="1200" height="106" fill="#faf9f7" stroke="#e8e4df"/>
+    <rect x="40" y="152" width="4" height="106" fill="#b45309"/>
+    <text x="60" y="196" font-size="17" font-weight="bold" fill="#14110f">概念与设计</text>
+    <text x="60" y="222" font-size="13" fill="#8a837c">Audio Design Doc</text>
+    <text x="240" y="192" font-size="14" fill="#3d3833">写音频设计文档，用参考曲目和情绪词</text>
+    <text x="240" y="216" font-size="14" fill="#3d3833">向团队描述想要的声音，靠类比沟通</text>
+    <text x="680" y="192" font-size="14" fill="#2b2724">描述直接变成能播放的样音，评审时不用</text>
+    <text x="680" y="216" font-size="14" fill="#2b2724">再猜“像某某电影那样”到底是什么样</text>
+  </g>
+
+  <!-- 行 2 -->
+  <g>
+    <rect x="40" y="258" width="1200" height="106" fill="#ffffff" stroke="#e8e4df"/>
+    <rect x="40" y="258" width="4" height="106" fill="#9f1239"/>
+    <text x="60" y="302" font-size="17" font-weight="bold" fill="#14110f">音效制作</text>
+    <text x="60" y="328" font-size="13" fill="#8a837c">SFX 与 Foley</text>
+    <text x="240" y="298" font-size="14" fill="#3d3833">进棚录拟音，或者买商业音效库，再从</text>
+    <text x="240" y="322" font-size="14" fill="#3d3833">几千条素材里反复试听、反复筛</text>
+    <text x="680" y="298" font-size="14" fill="#2b2724">文本描述直接出初稿，同一提示词批量出</text>
+    <text x="680" y="322" font-size="14" fill="#2b2724">变体，挑中的再进音频软件精修</text>
+  </g>
+
+  <!-- 行 3 -->
+  <g>
+    <rect x="40" y="364" width="1200" height="106" fill="#faf9f7" stroke="#e8e4df"/>
+    <rect x="40" y="364" width="4" height="106" fill="#b45309"/>
+    <text x="60" y="408" font-size="17" font-weight="bold" fill="#14110f">对白与配音</text>
+    <text x="60" y="434" font-size="13" fill="#8a837c">Voice</text>
+    <text x="240" y="404" font-size="14" fill="#3d3833">约棚、约演员、排档期。一句台词改动，</text>
+    <text x="240" y="428" font-size="14" fill="#3d3833">整段配音就要重新进棚</text>
+    <text x="680" y="404" font-size="14" fill="#2b2724">台词改动几乎不产生重录成本。音色克隆</text>
+    <text x="680" y="428" font-size="14" fill="#2b2724">可用，但要先解决演员授权与报酬约定</text>
+  </g>
+
+  <!-- 行 4 -->
+  <g>
+    <rect x="40" y="470" width="1200" height="106" fill="#ffffff" stroke="#e8e4df"/>
+    <rect x="40" y="470" width="4" height="106" fill="#0f766e"/>
+    <text x="60" y="514" font-size="17" font-weight="bold" fill="#14110f">音乐创作</text>
+    <text x="60" y="540" font-size="13" fill="#8a837c">Music</text>
+    <text x="240" y="510" font-size="14" fill="#3d3833">作曲、编曲、录制、混音四道工序。要做</text>
+    <text x="240" y="534" font-size="14" fill="#3d3833">自适应音乐，还得额外拆分层再对接参数</text>
+    <text x="680" y="510" font-size="14" fill="#2b2724">成曲和分轨都能直接生成，找参考风格变</text>
+    <text x="680" y="534" font-size="14" fill="#2b2724">得容易。循环点与动态切换仍要人工处理</text>
+  </g>
+
+  <!-- 行 5 -->
+  <g>
+    <rect x="40" y="576" width="1200" height="106" fill="#faf9f7" stroke="#e8e4df"/>
+    <rect x="40" y="576" width="4" height="106" fill="#4d7c0f"/>
+    <text x="60" y="620" font-size="17" font-weight="bold" fill="#14110f">集成与本地化</text>
+    <text x="60" y="646" font-size="13" fill="#8a837c">Implementation</text>
+    <text x="240" y="616" font-size="14" fill="#3d3833">在中间件里手动挂事件、设随机容器与切</text>
+    <text x="240" y="640" font-size="14" fill="#3d3833">换规则。本地化要为每种语言重录一遍</text>
+    <text x="680" y="616" font-size="14" fill="#2b2724">多语言配音可以批量生成，这块成本降得</text>
+    <text x="680" y="640" font-size="14" fill="#2b2724">最明显。中间件自身的 AI 功能仍然有限</text>
+  </g>
+
+  <text x="40" y="722" font-size="13" fill="#8a837c">示意图由本仓库 diagrams/ 下的 SVG 源文件渲染生成。替换程度为作者依据公开资料作的判断，不是行业统计值。</text>
+</svg>

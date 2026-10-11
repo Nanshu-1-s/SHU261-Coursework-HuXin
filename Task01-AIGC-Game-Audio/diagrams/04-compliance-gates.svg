@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="740" viewBox="0 0 1280 740" font-family="Microsoft YaHei">
+  <rect width="1280" height="740" fill="#ffffff"/>
+
+  <text x="40" y="48" font-size="30" font-weight="bold" fill="#14110f">AI 音频进游戏之前要过的几道关</text>
+  <text x="40" y="76" font-size="16" fill="#6b6660">规则在两年内快速收紧。上排是已经落地的时间点，下排是现在交付时必须处理的四件事</text>
+
+  <!-- ==================== 时间线 ==================== -->
+  <text x="40" y="122" font-size="17" font-weight="bold" fill="#14110f">关键时间点</text>
+
+  <line x1="80" y1="272" x2="1200" y2="272" stroke="#c9c3bc" stroke-width="2"/>
+
+  <!-- 事件 1 (上) 2024-04 -->
+  <line x1="80" y1="248" x2="80" y2="272" stroke="#9f1239" stroke-width="2"/>
+  <circle cx="80" cy="272" r="6" fill="#9f1239"/>
+  <text x="80" y="182" font-size="13" font-weight="bold" fill="#9f1239" text-anchor="middle">2024-04</text>
+  <text x="80" y="206" font-size="12" fill="#3d3833" text-anchor="middle">中国首例 AI 声音</text>
+  <text x="80" y="224" font-size="12" fill="#3d3833" text-anchor="middle">侵权案宣判，判赔</text>
+  <text x="80" y="242" font-size="12" fill="#3d3833" text-anchor="middle">25 万元并道歉</text>
+
+  <!-- 事件 2 (下) 2025-03 -->
+  <line x1="240" y1="272" x2="240" y2="296" stroke="#1e40af" stroke-width="2"/>
+  <circle cx="240" cy="272" r="6" fill="#1e40af"/>
+  <text x="240" y="316" font-size="13" font-weight="bold" fill="#1e40af" text-anchor="middle">2025-03</text>
+  <text x="240" y="340" font-size="12" fill="#3d3833" text-anchor="middle">美国 D.C. 巡回法院</text>
+  <text x="240" y="358" font-size="12" fill="#3d3833" text-anchor="middle">确认人类作者要求，</text>
+  <text x="240" y="376" font-size="12" fill="#3d3833" text-anchor="middle">纯 AI 生成无版权</text>
+
+  <!-- 事件 3 (上) 2025-07 -->
+  <line x1="400" y1="248" x2="400" y2="272" stroke="#b45309" stroke-width="2"/>
+  <circle cx="400" cy="272" r="6" fill="#b45309"/>
+  <text x="400" y="182" font-size="13" font-weight="bold" fill="#b45309" text-anchor="middle">2025-07</text>
+  <text x="400" y="206" font-size="12" fill="#3d3833" text-anchor="middle">SAG-AFTRA 互动</text>
+  <text x="400" y="224" font-size="12" fill="#3d3833" text-anchor="middle">媒体协议通过，结束</text>
+  <text x="400" y="242" font-size="12" fill="#3d3833" text-anchor="middle">320 天罢工</text>
+
+  <!-- 事件 4 (下) 2025-09 -->
+  <line x1="560" y1="272" x2="560" y2="296" stroke="#9f1239" stroke-width="2"/>
+  <circle cx="560" cy="272" r="6" fill="#9f1239"/>
+  <text x="560" y="316" font-size="13" font-weight="bold" fill="#9f1239" text-anchor="middle">2025-09</text>
+  <text x="560" y="340" font-size="12" fill="#3d3833" text-anchor="middle">中国 AI 生成合成</text>
+  <text x="560" y="358" font-size="12" fill="#3d3833" text-anchor="middle">内容标识办法施行，</text>
+  <text x="560" y="376" font-size="12" fill="#3d3833" text-anchor="middle">音频要打显式标识</text>
+
+  <!-- 事件 5 (上) 2025-11 -->
+  <line x1="720" y1="248" x2="720" y2="272" stroke="#0f766e" stroke-width="2"/>
+  <circle cx="720" cy="272" r="6" fill="#0f766e"/>
+  <text x="720" y="182" font-size="13" font-weight="bold" fill="#0f766e" text-anchor="middle">2025-11</text>
+  <text x="720" y="206" font-size="12" fill="#3d3833" text-anchor="middle">Warner 与 Suno</text>
+  <text x="720" y="224" font-size="12" fill="#3d3833" text-anchor="middle">和解，签下授权协议。</text>
+  <text x="720" y="242" font-size="12" fill="#3d3833" text-anchor="middle">UMG 同期与 Udio 和解</text>
+
+  <!-- 事件 6 (下) 2026-01 -->
+  <line x1="880" y1="272" x2="880" y2="296" stroke="#1e40af" stroke-width="2"/>
+  <circle cx="880" cy="272" r="6" fill="#1e40af"/>
+  <text x="880" y="316" font-size="13" font-weight="bold" fill="#1e40af" text-anchor="middle">2026-01</text>
+  <text x="880" y="340" font-size="12" fill="#3d3833" text-anchor="middle">Steam 改写 AI 披露</text>
+  <text x="880" y="358" font-size="12" fill="#3d3833" text-anchor="middle">表单，口径收窄到玩家</text>
+  <text x="880" y="376" font-size="12" fill="#3d3833" text-anchor="middle">能感知的内容，含音频</text>
+
+  <!-- 事件 7 (上) 2026-08 -->
+  <line x1="1040" y1="248" x2="1040" y2="272" stroke="#4d7c0f" stroke-width="2"/>
+  <circle cx="1040" cy="272" r="6" fill="#4d7c0f"/>
+  <text x="1040" y="182" font-size="13" font-weight="bold" fill="#4d7c0f" text-anchor="middle">2026-08</text>
+  <text x="1040" y="206" font-size="12" fill="#3d3833" text-anchor="middle">欧盟 AI 法案第 50 条</text>
+  <text x="1040" y="224" font-size="12" fill="#3d3833" text-anchor="middle">透明度义务适用，合成</text>
+  <text x="1040" y="242" font-size="12" fill="#3d3833" text-anchor="middle">音频要能被机器识别</text>
+
+  <!-- 事件 8 (下) 2026-09 -->
+  <line x1="1200" y1="272" x2="1200" y2="296" stroke="#9f1239" stroke-width="2"/>
+  <circle cx="1200" cy="272" r="6" fill="#9f1239"/>
+  <text x="1200" y="316" font-size="13" font-weight="bold" fill="#9f1239" text-anchor="middle">2026-09</text>
+  <text x="1200" y="340" font-size="12" fill="#3d3833" text-anchor="middle">UMG 与 Sony 就新</text>
+  <text x="1200" y="358" font-size="12" fill="#3d3833" text-anchor="middle">模型再度起诉 Suno，</text>
+  <text x="1200" y="376" font-size="12" fill="#3d3833" text-anchor="middle">音乐授权仍未落定</text>
+
+  <line x1="40" y1="406" x2="1240" y2="406" stroke="#e8e4df"/>
+
+  <!-- ==================== 四道关 ==================== -->
+  <text x="40" y="444" font-size="17" font-weight="bold" fill="#14110f">交付前必须处理的四件事</text>
+
+  <!-- 关 1 -->
+  <g>
+    <rect x="40" y="466" width="286" height="212" rx="4" fill="#faf9f7" stroke="#e0dcd6"/>
+    <rect x="40" y="466" width="286" height="5" fill="#1e40af"/>
+    <text x="60" y="502" font-size="15" font-weight="bold" fill="#14110f">版权能不能拿到</text>
+    <rect x="60" y="522" width="5" height="5" fill="#1e40af"/>
+    <text x="76" y="532" font-size="12.5" fill="#3d3833">美国版权局要求人类作者。</text>
+    <text x="76" y="550" font-size="12.5" fill="#3d3833">2025-03 由 D.C. 巡回法院确认，</text>
+    <text x="76" y="568" font-size="12.5" fill="#3d3833">纯 AI 生成物不受版权保护。</text>
+    <rect x="60" y="594" width="5" height="5" fill="#1e40af"/>
+    <text x="76" y="604" font-size="12.5" fill="#3d3833">人类投入不足的 AI 音频被抄走，</text>
+    <text x="76" y="622" font-size="12.5" fill="#3d3833">也很难主张权利。专门针对音频</text>
+    <text x="76" y="640" font-size="12.5" fill="#3d3833">的判例目前还没有。</text>
+  </g>
+
+  <!-- 关 2 -->
+  <g>
+    <rect x="344" y="466" width="286" height="212" rx="4" fill="#faf9f7" stroke="#e0dcd6"/>
+    <rect x="344" y="466" width="286" height="5" fill="#9f1239"/>
+    <text x="364" y="502" font-size="15" font-weight="bold" fill="#14110f">要不要打标识</text>
+    <rect x="364" y="522" width="5" height="5" fill="#9f1239"/>
+    <text x="380" y="532" font-size="12.5" fill="#3d3833">中国 2025-09-01 起施行标识办法。</text>
+    <text x="380" y="550" font-size="12.5" fill="#3d3833">AI 音频要在开头或结尾加语音</text>
+    <text x="380" y="568" font-size="12.5" fill="#3d3833">提示，元数据里写隐式标识。</text>
+    <rect x="364" y="594" width="5" height="5" fill="#9f1239"/>
+    <text x="380" y="604" font-size="12.5" fill="#3d3833">欧盟 AI 法案第 50 条从</text>
+    <text x="380" y="622" font-size="12.5" fill="#3d3833">2026-08-02 起适用，合成音频</text>
+    <text x="380" y="640" font-size="12.5" fill="#3d3833">要能被机器检测出是 AI 生成。</text>
+  </g>
+
+  <!-- 关 3 -->
+  <g>
+    <rect x="648" y="466" width="286" height="212" rx="4" fill="#faf9f7" stroke="#e0dcd6"/>
+    <rect x="648" y="466" width="286" height="5" fill="#0f766e"/>
+    <text x="668" y="502" font-size="15" font-weight="bold" fill="#14110f">要不要向平台披露</text>
+    <rect x="668" y="522" width="5" height="5" fill="#0f766e"/>
+    <text x="684" y="532" font-size="12.5" fill="#3d3833">Steam 2026-01 改写披露表单，</text>
+    <text x="684" y="550" font-size="12.5" fill="#3d3833">口径收窄到玩家能感知到的 AI</text>
+    <text x="684" y="568" font-size="12.5" fill="#3d3833">内容，音频算在内。</text>
+    <rect x="668" y="594" width="5" height="5" fill="#0f766e"/>
+    <text x="684" y="604" font-size="12.5" fill="#3d3833">Epic 不做 AI 标识。主机三家</text>
+    <text x="684" y="622" font-size="12.5" fill="#3d3833">目前没有强制披露要求，Xbox</text>
+    <text x="684" y="640" font-size="12.5" fill="#3d3833">明确说不会强制开发者用 AI。</text>
+  </g>
+
+  <!-- 关 4 -->
+  <g>
+    <rect x="952" y="466" width="288" height="212" rx="4" fill="#faf9f7" stroke="#e0dcd6"/>
+    <rect x="952" y="466" width="288" height="5" fill="#b45309"/>
+    <text x="972" y="502" font-size="15" font-weight="bold" fill="#14110f">声音与音乐的授权从哪来</text>
+    <rect x="972" y="522" width="5" height="5" fill="#b45309"/>
+    <text x="988" y="532" font-size="12.5" fill="#3d3833">中国《民法典》第 1023 条把声音</text>
+    <text x="988" y="550" font-size="12.5" fill="#3d3833">按肖像权保护，2024-04 首例</text>
+    <text x="988" y="568" font-size="12.5" fill="#3d3833">AI 声音侵权案判赔 25 万元。</text>
+    <rect x="972" y="594" width="5" height="5" fill="#b45309"/>
+    <text x="988" y="604" font-size="12.5" fill="#3d3833">Suno 与 ElevenLabs 都是付费</text>
+    <text x="988" y="622" font-size="12.5" fill="#3d3833">档才有商用权。UMG 与 Sony</text>
+    <text x="988" y="640" font-size="12.5" fill="#3d3833">在 2026-09 再度起诉 Suno。</text>
+  </g>
+
+  <text x="40" y="712" font-size="13" fill="#8a837c">示意图由本仓库 diagrams/ 下的 SVG 源文件渲染生成。时间点来自公开报道与官方文件，括号内的年份月份以来源发布或生效时间为准。</text>
+</svg>

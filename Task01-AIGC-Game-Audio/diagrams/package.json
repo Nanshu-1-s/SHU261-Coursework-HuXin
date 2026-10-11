@@ -1,0 +1,12 @@
+{
+  "name": "task01-diagrams",
+  "private": true,
+  "type": "module",
+  "description": "把本文档里的示意图 SVG 源文件渲染成 PNG",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2"
+  }
+}

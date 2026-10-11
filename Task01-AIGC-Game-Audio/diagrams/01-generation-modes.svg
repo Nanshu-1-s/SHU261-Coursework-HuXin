@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="840" viewBox="0 0 1280 840" font-family="Microsoft YaHei">
+  <rect width="1280" height="840" fill="#ffffff"/>
+
+  <text x="40" y="52" font-size="30" font-weight="bold" fill="#14110f">AIGC 音频生成模式与游戏音频资产的对应关系</text>
+  <text x="40" y="82" font-size="16" fill="#6b6660">五种生成模式，各自吃进去什么、吐出来什么，落到游戏项目里变成哪一类资产</text>
+
+  <!-- ============ 第一行 三张卡 ============ -->
+  <!-- 卡片 1 Text-to-Speech -->
+  <g>
+    <rect x="40" y="118" width="380" height="236" rx="4" fill="#faf9f7" stroke="#e0dcd6"/>
+    <rect x="40" y="118" width="380" height="6" fill="#b45309"/>
+    <text x="64" y="166" font-size="23" font-weight="bold" fill="#14110f">Text-to-Speech</text>
+    <text x="64" y="192" font-size="15" fill="#6b6660">语音合成</text>
+    <line x1="64" y1="210" x2="396" y2="210" stroke="#e0dcd6"/>
+    <text x="64" y="240" font-size="14" fill="#8a837c">输入</text>
+    <text x="112" y="240" font-size="14" fill="#2b2724">文本，可选参考音色</text>
+    <text x="64" y="268" font-size="14" fill="#8a837c">输出</text>
+    <text x="112" y="268" font-size="14" fill="#2b2724">对白与旁白音轨</text>
+    <text x="64" y="296" font-size="14" fill="#8a837c">用途</text>
+    <text x="112" y="296" font-size="14" fill="#2b2724">NPC 对白与本地化批量生成</text>
+    <rect x="64" y="314" width="72" height="26" rx="13" fill="#b45309"/>
+    <text x="100" y="332" font-size="14" fill="#ffffff" text-anchor="middle">语音</text>
+  </g>
+
+  <!-- 卡片 2 Text-to-Music -->
+  <g>
+    <rect x="450" y="118" width="380" height="236" rx="4" fill="#faf9f7" stroke="#e0dcd6"/>
+    <rect x="450" y="118" width="380" height="6" fill="#0f766e"/>
+    <text x="474" y="166" font-size="23" font-weight="bold" fill="#14110f">Text-to-Music</text>
+    <text x="474" y="192" font-size="15" fill="#6b6660">音乐生成</text>
+    <line x1="474" y1="210" x2="806" y2="210" stroke="#e0dcd6"/>
+    <text x="474" y="240" font-size="14" fill="#8a837c">输入</text>
+    <text x="522" y="240" font-size="14" fill="#2b2724">文本描述，可选风格参考</text>
+    <text x="474" y="268" font-size="14" fill="#8a837c">输出</text>
+    <text x="522" y="268" font-size="14" fill="#2b2724">完整曲目或分轨文件</text>
+    <text x="474" y="296" font-size="14" fill="#8a837c">用途</text>
+    <text x="522" y="296" font-size="14" fill="#2b2724">战斗配乐与循环段制作</text>
+    <rect x="474" y="314" width="72" height="26" rx="13" fill="#0f766e"/>
+    <text x="510" y="332" font-size="14" fill="#ffffff" text-anchor="middle">音乐</text>
+  </g>
+
+  <!-- 卡片 3 Text-to-Audio -->
+  <g>
+    <rect x="860" y="118" width="380" height="236" rx="4" fill="#faf9f7" stroke="#e0dcd6"/>
+    <rect x="860" y="118" width="380" height="6" fill="#9f1239"/>
+    <text x="884" y="166" font-size="23" font-weight="bold" fill="#14110f">Text-to-Audio</text>
+    <text x="884" y="192" font-size="15" fill="#6b6660">音效生成</text>
+    <line x1="884" y1="210" x2="1216" y2="210" stroke="#e0dcd6"/>
+    <text x="884" y="240" font-size="14" fill="#8a837c">输入</text>
+    <text x="932" y="240" font-size="14" fill="#2b2724">文本描述，可选时长与事件</text>
+    <text x="884" y="268" font-size="14" fill="#8a837c">输出</text>
+    <text x="932" y="268" font-size="14" fill="#2b2724">单个音效文件</text>
+    <text x="884" y="296" font-size="14" fill="#8a837c">用途</text>
+    <text x="932" y="296" font-size="14" fill="#2b2724">打击音、环境音、界面音</text>
+    <rect x="884" y="314" width="72" height="26" rx="13" fill="#9f1239"/>
+    <text x="920" y="332" font-size="14" fill="#ffffff" text-anchor="middle">音效</text>
+  </g>
+
+  <!-- ============ 第二行 两张卡 + 说明 ============ -->
+  <!-- 卡片 4 Text-to-Video -->
+  <g>
+    <rect x="40" y="384" width="380" height="236" rx="4" fill="#faf9f7" stroke="#e0dcd6"/>
+    <rect x="40" y="384" width="380" height="6" fill="#1e40af"/>
+    <text x="64" y="432" font-size="23" font-weight="bold" fill="#14110f">Text-to-Video</text>
+    <text x="64" y="458" font-size="15" fill="#6b6660">音视频同生</text>
+    <line x1="64" y1="476" x2="396" y2="476" stroke="#e0dcd6"/>
+    <text x="64" y="506" font-size="14" fill="#8a837c">输入</text>
+    <text x="112" y="506" font-size="14" fill="#2b2724">文本，可选首帧参考图</text>
+    <text x="64" y="534" font-size="14" fill="#8a837c">输出</text>
+    <text x="112" y="534" font-size="14" fill="#2b2724">画面与声音同时生成的片段</text>
+    <text x="64" y="562" font-size="14" fill="#8a837c">用途</text>
+    <text x="112" y="562" font-size="14" fill="#2b2724">过场动画与预告片</text>
+    <rect x="64" y="580" width="96" height="26" rx="13" fill="#1e40af"/>
+    <text x="112" y="598" font-size="14" fill="#ffffff" text-anchor="middle">画面 + 声音</text>
+  </g>
+
+  <!-- 卡片 5 Video-to-Audio -->
+  <g>
+    <rect x="450" y="384" width="380" height="236" rx="4" fill="#faf9f7" stroke="#e0dcd6"/>
+    <rect x="450" y="384" width="380" height="6" fill="#4d7c0f"/>
+    <text x="474" y="432" font-size="23" font-weight="bold" fill="#14110f">Video-to-Audio</text>
+    <text x="474" y="458" font-size="15" fill="#6b6660">画面驱动配音</text>
+    <line x1="474" y1="476" x2="806" y2="476" stroke="#e0dcd6"/>
+    <text x="474" y="506" font-size="14" fill="#8a837c">输入</text>
+    <text x="522" y="506" font-size="14" fill="#2b2724">已有的视频或动画</text>
+    <text x="474" y="534" font-size="14" fill="#8a837c">输出</text>
+    <text x="522" y="534" font-size="14" fill="#2b2724">与画面对齐的音效轨</text>
+    <text x="474" y="562" font-size="14" fill="#8a837c">用途</text>
+    <text x="522" y="562" font-size="14" fill="#2b2724">动画补拟音、预告片配声</text>
+    <rect x="474" y="580" width="96" height="26" rx="13" fill="#4d7c0f"/>
+    <text x="522" y="598" font-size="14" fill="#ffffff" text-anchor="middle">声音轨</text>
+  </g>
+
+  <!-- 右侧说明块 -->
+  <g>
+    <rect x="860" y="384" width="380" height="236" rx="4" fill="#f4f4f2" stroke="#e0dcd6"/>
+    <text x="884" y="424" font-size="17" font-weight="bold" fill="#14110f">同一个提示词，换模型差别很大</text>
+    <text x="884" y="456" font-size="14" fill="#3d3833">音频模型的输出是采样点，不像文字可以逐字比对。</text>
+    <text x="884" y="478" font-size="14" fill="#3d3833">同一句描述交给不同模型，得到的可能是完全两回事。</text>
+    <text x="884" y="512" font-size="14" fill="#3d3833">选型时最先要问清三件事。</text>
+    <rect x="886" y="530" width="5" height="5" fill="#9f1239"/>
+    <text x="902" y="540" font-size="14" fill="#14110f">单次能生成多长</text>
+    <rect x="886" y="556" width="5" height="5" fill="#9f1239"/>
+    <text x="902" y="566" font-size="14" fill="#14110f">能不能指定具体时刻发声</text>
+    <rect x="886" y="582" width="5" height="5" fill="#9f1239"/>
+    <text x="902" y="592" font-size="14" fill="#14110f">生成结果的授权范围</text>
+  </g>
+
+  <!-- ============ 图例 ============ -->
+  <g>
+    <rect x="40" y="650" width="1200" height="96" rx="4" fill="#ffffff" stroke="#e0dcd6"/>
+    <text x="64" y="680" font-size="14" fill="#8a837c">色条对应卡片产出资产类型</text>
+    <rect x="64" y="698" width="14" height="14" fill="#b45309"/>
+    <text x="88" y="711" font-size="15" fill="#2b2724">语音资产</text>
+    <rect x="296" y="698" width="14" height="14" fill="#0f766e"/>
+    <text x="320" y="711" font-size="15" fill="#2b2724">音乐资产</text>
+    <rect x="528" y="698" width="14" height="14" fill="#9f1239"/>
+    <text x="552" y="711" font-size="15" fill="#2b2724">音效资产</text>
+    <rect x="760" y="698" width="14" height="14" fill="#1e40af"/>
+    <text x="784" y="711" font-size="15" fill="#2b2724">画面与声音一体</text>
+    <rect x="992" y="698" width="14" height="14" fill="#4d7c0f"/>
+    <text x="1016" y="711" font-size="15" fill="#2b2724">已有画面的声音轨</text>
+  </g>
+
+  <text x="40" y="786" font-size="13" fill="#8a837c">示意图由本仓库 diagrams/ 下的 SVG 源文件渲染生成，坐标与配色在源文件中可见。</text>
+</svg>
